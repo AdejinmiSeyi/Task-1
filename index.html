@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav-wrap">
+        <img src="assets\Feyisara logo.png" alt="Feyisara logo">
+        
+        <div>
+            <input type="search" name="search" id="search-input" placeholder="Search">
+            <button type="submit">Search</button>
+
+        </div>
+        
+        <div id="link-wrapper">
+            <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">About</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Contact</a>
+         
+        </div>
+    </nav>
+
+    <section id="profile">
+        <h1>Oluwaseyi Feyisara</h1>
+
+        <p>Stack: Fullstack Development (Cohort 7)</p>
+
+        <h3> Languages: HTML and CSS </h3>
+
+    </section>
+
+    <section onclick="whiteDress()" id="product-grid">
+        <div class="grid-item">
+            <img src="assets\white dress.jpg" alt="white dress">
+        <div id="product-info">
+        <h3>White Dress</h3>
+        <p>$200</p>
+        </div>
+        <p id="description">A pretty dress for a pretty woman</p>
+        </div>
+
+        <!-- <div class="showcase">
+           <img src="assets\ceenter piece.jpg" alt="">
+        </div> -->
+
+            
+
+        <div onclick="purpleDress()" class="grid-item">
+            <img src="assets\purple dress1.png" alt="purple dress">
+            
+            <div id="product-info">
+                <h3>Purple Dress</h3>
+                <p>$200</p>
+            </div>
+            <p>A pretty dress</p>
+        </div>
+
+        <div onclick="whiteDress()" class="grid-item">
+            <img src="assets\white dress.jpg" alt="white dress">
+            <div id="product-info">
+                <h3>White Dress</h3>
+                <p>$200</p>
+            </div>
+             <p>A pretty dress</p>
+        </div>
+
+        <div onclick="purpleDress()" class="grid-item">
+            <img src="assets\purple dress1.png" alt="purple dress">
+        
+            <div id="product-info">
+                <h3>Purple Dress</h3>
+                <p>$200</p>
+            </div>
+             <p>A pretty dress</p>
+        </div>
+
+        <div onclick="whiteDress()" class="grid-item">
+            <img src="assets\white dress.jpg" alt="white dress">
+            <div id="product-info">
+                <h3>White Dress</h3>
+                <p>$200</p>
+            </div>
+             <p>A pretty dress</p>
+        </div>
+
+    </section>
+   
+   <script src="index.js"></script> 
+</body>
+</html>
