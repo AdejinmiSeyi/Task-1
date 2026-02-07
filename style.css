@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 1rem;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    /* padding: 2rem; */
+    /* gap: 20px; */
+    justify-content: space-between;
+
+}
+
+nav img {
+    height: 4rem;
+}
+
+#link-wrapper{
+    margin: 2rem;
+
+}
+
+input {
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+
+nav button {
+    
+    background: skyblue;
+    border: 0;
+    padding: 10px;
+    margin-top: 10px;
+    
+    border-radius: 3px;
+    width: 150px;
+    
+    font-weight: bold;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+
+a:hover{
+    background-color: burlywood;
+    
+}
+
+#profile {
+    padding-top: 3rem;
+}
+
+
+#product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.grid-item{
+    background-color: rgb(237, 204, 243);
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    height: 30rem;
+    
+    
+}
+
+
+.grid-item:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+}
+
+
+.div, img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+
+}
+
+#product-info, h5 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: .2rem;
+
+}
+
+
+/* ********************************* */
+/* Media Queries */
+
+
+
+
+@media (max-width: 768px) {
+    #nav-wrap {
+        flex-direction: column;
+    }
+    
+    #product-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 1024px) and (min-width:769px) {
+    #nav-wrap {
+        flex-direction: column;
+    }
+    
+    #product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
