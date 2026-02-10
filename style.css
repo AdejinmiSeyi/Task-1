@@ -21,6 +21,7 @@ nav {
 
 nav img {
     height: 4rem;
+    width: 7rem;
 }
 
 #link-wrapper{
@@ -90,7 +91,7 @@ a:hover{
 
 .div, img {
     height: 300px;
-    width: 400px;
+    width: 100%;
     object-fit: cover;
 
 }
